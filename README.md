@@ -7,6 +7,17 @@ A modern, full-stack, production-ready web application designed to scan resumes 
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-4-38B2AC?style=for-the-badge&logo=tailwind-css)
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini-2.5_Flash-orange?style=for-the-badge&logo=google)
 
+
+# AI Resume Analyser
+
+An AI-powered tool that analyses resumes and provides useful feedback.
+
+## 🚀 Live Demo
+
+**Try the application here:** [AI Resume Analyser](https://ai-resume-analyser-amber-five.vercel.app/)
+
+
+
 ---
 
 ## ✨ Features
