@@ -5,7 +5,7 @@ A modern, full-stack, production-ready web application designed to scan resumes 
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-4-38B2AC?style=for-the-badge&logo=tailwind-css)
-![Google Gemini](https://img.shields.io/badge/Google_Gemini-2.5_Flash-orange?style=for-the-badge&logo=google)
+
 
 
 # AI Resume Analyser
@@ -62,36 +62,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🌐 Deployment Instructions
-
-### Option 1: Deploy to Vercel (Recommended — 1-Click)
-1. Push this repository to GitHub or GitLab.
-2. Go to [Vercel](https://vercel.com/new).
-3. Import this repository.
-4. (Optional) Under **Environment Variables**, add `GEMINI_API_KEY`.
-5. Click **Deploy**. Vercel will automatically detect Next.js and build the project.
-
-### Option 2: Deploy to Netlify
-1. Connect your repository on [Netlify](https://app.netlify.com/).
-2. Build command: `npm run build`
-3. Publish directory: `.next`
-4. Set `GEMINI_API_KEY` in environment variables if desired.
-
-### Option 3: Deploy with Docker
-Build and run the production container:
-```bash
-# Build Docker image
-docker build -t ai-resume-analyzer .
-
-# Run container on port 3000
-docker run -p 3000:3000 -e GEMINI_API_KEY="your_api_key" ai-resume-analyzer
-```
-
-### Option 4: Deploy to Render / Railway
-- **Render**: Create a new **Web Service**, connect the Git repo, select **Node** runtime, set build command to `npm run build` and start command to `npm start`.
-- **Railway**: Click **New Project** &rarr; **Deploy from GitHub repo**. Railway will auto-detect Next.js.
-
----
 
 ## 📁 Project Architecture
 
